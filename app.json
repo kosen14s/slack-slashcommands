@@ -1,0 +1,28 @@
+{
+	"help" : {
+		"name" : "help",
+		"command" : "help",
+		"description" : "Show help",
+		"type" : "processing",
+	},
+	"hello" : {
+		"name" : "hello",
+		"command" : "hello",
+		"description" : "Send hello",
+		"type" : "built-in",
+		"data" : {
+			"response_type" : "in_channel",
+			"text" : "Hello"
+		}
+	},
+	"muscle" : {
+		"name" : "muscle",
+		"command" : "muscle",
+		"description" : "Send muscle",
+		"type" : "built-in",
+		"data" : {
+			"response_type" : "in_channel",
+			"text" : ":muscle:"
+		}
+	},
+}
