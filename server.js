@@ -18,7 +18,7 @@ fs.readFile('app.json', 'utf8', function (err, text) {
 */
 
 router.get('/', function(req, res) {
-    res.json({ message: 'hooray! welcome to our api!' });
+    res.json({ message: 'null' });
 });
 
 router.post('/slack',function(req,res) {
@@ -47,7 +47,6 @@ router.post('/slack',function(req,res) {
 				"text": ":muscle:",
 			});
 		}
-		res.json();
 		*/
 	}
 });
